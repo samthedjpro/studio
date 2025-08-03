@@ -1,10 +1,10 @@
 # Synapse - Your Personal AI Medical Assistant
 
-Synapse is an AI-powered companion for medical diagnostics, powered by Google's state-of-the-art **Gemma** models. By leveraging advanced real-time image and video analysis, Synapse empowers you with sophisticated visual diagnostics across various medical domains.
+Synapse is an AI-powered companion for medical diagnostics, powered by Google's state-of-the-art **Gemma** models. By leveraging advanced real-time image analysis, Synapse empowers you with sophisticated visual diagnostics across various medical domains.
 
 ## Features
 
-Synapse offers three core diagnostic tools:
+Synapse offers four core diagnostic tools:
 
 1.  **Report Analysis**: Upload images of medical reports such as X-rays, CT scans, or blood reports. The AI will provide a basic analysis, identifying potential diseases, abnormalities, or key markers.
 
@@ -14,12 +14,15 @@ Synapse offers three core diagnostic tools:
 
 4.  **Find Nearby Hospitals**: After any analysis, you can use your device's location to find nearby hospitals, complete with their address and phone number, ensuring you can seek professional help quickly.
 
+5.  **Offline Support**: Synapse is a Progressive Web App (PWA), which means it can be installed on your device and used even without an internet connection, ensuring you always have access to its diagnostic tools.
+
 ## How to Use
 
 -   **Report Analysis**: Navigate to the "Report Analysis" tab, click the upload area to select an image of your medical report, and click "Analyze Report".
 -   **Neurological Assessment**: Go to the "Neurological Assessment" tab. Allow camera access, position your face and upper body in the frame, and click "Assess Symmetry". You can toggle the camera on and off for your privacy.
 -   **Dermatology Analysis**: Select the "Dermatology Analysis" tab, upload an image of the skin condition, and click "Analyze Skin Condition" to receive an analysis and first-aid advice.
 -   **Find Hospitals**: After receiving any analysis, click the "Find Nearby Hospitals" button to get a list of medical facilities near you.
+-   **Install the App**: To use Synapse offline, look for the "Install" button in your browser's address bar or menu. Once installed, you can launch it directly from your home screen.
 
 ## Technology Stack
 
@@ -28,6 +31,7 @@ Synapse offers three core diagnostic tools:
 -   **AI/Backend**: [Genkit](https://firebase.google.com/docs/genkit) powered by **Gemma**
 -   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 -   **UI Components**: [ShadCN UI](https://ui.shadcn.com/)
+-   **Offline Support**: Progressive Web App (PWA) using `@ducanh2912/next-pwa`
 
 ---
 
